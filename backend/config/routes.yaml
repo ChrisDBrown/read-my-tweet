@@ -1,0 +1,12 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+say_phrase:
+    path: /say
+    controller: App\Controller\DefaultController::sayPhrase
+    methods: [POST]
+
+get_tweet:
+    path: /tweet
+    controller: App\Controller\DefaultController::getTweets
